@@ -1,0 +1,27 @@
+body, html {
+    background-color: rosybrown;
+    font-size: 30px;
+    color: black;
+
+}
+h1 {
+    font-size: 15px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+h2 {
+    color: brown;
+    font-size: 40px
+}
+#sub {
+    background-color: royalblue;
+    color: black;
+    height: 35px;
+    width: 110px
+}
+#desc, #dt, #st, #dsc, #datte, #pr {
+    background-color: wheat
+}
+#cr, #del {
+    background-color: royalblue
+}

@@ -1,0 +1,12 @@
+<form method="POST" action="/issues/{{issue._id}}?_method=PUT">
+    <label for="description">Description</label>
+    <input type="text" name="description" value="{{issue.description}}" id="dsc"/>
+     
+    <label>Date</label>
+    <input type="date" name="createdAt" value="{{issue.date}}" id="datte"/>
+    
+    <labe>Priority</labe>
+    <input type="text" name="priority" value="{{issue.priority}}" id="pri"/>
+
+     <input type="submit" value="Submit changes" id="sub"/>
+</form>

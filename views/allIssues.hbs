@@ -1,0 +1,15 @@
+
+ <h2>All issues</h2>
+ <a href='/issues/new'>Create new issue</a>
+
+<ul> 
+    {{#each issues}}
+    <li>
+  
+     <a href="/issues/{{_id}}">{{description}}</a>
+   
+     
+
+    </li>
+    {{/each}}
+</ul>
